@@ -52,16 +52,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-    var sum1 = a+b+c;
-    var multi1 = a*b*c;
-    var message1 = `${a} and ${b} and ${c} sum to ${sum1}.`;
-    var msg1 = `The product of ${a} and ${b} and ${c} is ${multi1}.`;
-    return [sum1, multi1, message1, msg1]; 
- 
+    
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-testSumAndMultiply(4,7,5);
+// testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -79,15 +74,12 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
-    var arr = testArray[0] + testArray[1] + testArray[2];
-    var msg2 = `${testArray[0]},${testArray[1]},${testArray[2]} was passed in as an array of numbers, and ${arr} is their sum.`;
-    return [arr, msg2];
-
+   
 }
 
 // Here is the test for sumArray(); uncomment it to run it
 
-testSumArray(testArray);
+// testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -103,15 +95,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-    var multiarr = testArray[0] * testArray[1] * testArray[2];
-    var msg3 = `The numbers ${testArray[0]},${testArray[1]},${testArray[2]} have a product of ${multiarr}.`;
-    return [multiarr, msg3];
+    
 
 
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-testMultiplyArray(testArray);
+// testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
